@@ -1,12 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <title>Tribute</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Elon Musk Tribute</title>
     <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
   </head>
   <body>
-    <h1>Tribute</h1>
-    <p>Welcome to the project.</p>
+    <main id="main" class="fade-in">
+      <h1 id="title">Elon Reeves Musk</h1>
+      <h3>The African-American entrepreneur pushing the boundaries of technology and humanity</h3>
+
+      <figure id="img-div" class="img-container fade-in">
+        <img
+          id="image"
+          class="musk-image"
+          src="https://helios-i.mashable.com/imagery/articles/04MGL1MMJP3pA2u5UPrUdMs/hero-image.fill.size_1248x702.v1692866583.jpg"
+          alt="Elon Musk presenting Cybertruck"
+        />
+        <figcaption id="img-caption" class="caption">
+          Musk unveils the Cybertruck at a press event. Tesla to begin production in 2023.
+        </figcaption>
+      </figure>
+
+      <div class="life fade-in">
+        <p class="life-header bold">Here is a timeline of Elon Musk's life and accomplishments:</p>
+        <ul id="tribute-info">
+          <li><span class="bold">2002</span> — Founded SpaceX with the goal of reducing space transportation costs.</li>
+          <li><span class="bold">2008</span> — Tesla releases the all-electric Roadster.</li>
+          <li><span class="bold">2012</span> — SpaceX's Dragon becomes the first commercial spacecraft to deliver cargo to the ISS.</li>
+          <li><span class="bold">2015</span> — Announces the Powerwall battery product for homes and businesses.</li>
+          <li><span class="bold">2016</span> — Co-founds Neuralink to integrate brains with AI.</li>
+          <li><span class="bold">2017</span> — Launches The Boring Company to develop underground transit systems.</li>
+          <li><span class="bold">2020</span> — Becomes the world's richest person (briefly) and launches multiple Starlink satellites.</li>
+          <li><span class="bold">2022</span> — Acquires Twitter and begins transforming the platform.</li>
+        </ul>
+
+        <blockquote class="quote-container fade-in">
+          <p class="quote">“Engineering is the closest thing to magic that exists in the world.”</p>
+          <p class="quote-author">— Elon Musk</p>
+        </blockquote>
+      </div>
+
+      <h3>
+        If you have time, you should read more about this fascinating individual on his
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Elon_Musk" target="_blank">Wikipedia page</a>.
+      </h3>
+    </main>
+
+    <footer>
+      <p>Built with ❤️ by Micheal J. Callaghan (mjcaldev) | Tribute Page Project</p>
+    </footer>
   </body>
 </html>
